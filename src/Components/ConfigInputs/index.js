@@ -37,7 +37,7 @@ class ConfigInputs extends Component {
     let prop = ""
     Array.from(e.target.elements).forEach(el => {
       if(el.name === "until" || el.name === "from"){
-        bounds[el.name] = el.value
+        bounds[el.name] = Math.abs(el.value)
       } else {
         if(el.name === "property")prop = el.value
       }

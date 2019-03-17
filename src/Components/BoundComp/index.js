@@ -46,6 +46,7 @@ class BoundsExample extends Component<{}, State> {
             let check = p.data.filter(elem => elem.name === el.properties.name)[0]
             let tableCheck = colorTabler(p.from, p.until)
             let opacity = () => {
+                   console.log("TESTING2", check)
                    let perem = Number(check.value.toString()[0]+"e"+(check.value.toString().length - 1))
                    return tableCheck.filter(
                      (elm,index,arr) => {
@@ -53,10 +54,11 @@ class BoundsExample extends Component<{}, State> {
                      }
                    )
             }
+            console.log("TESTING", check)
             return (<GeoJSON style={ ()=>(
               {fillColor: p.color,
               color:  "blue",
-              fillOpacity: check ? opacity()[0].opa : 0  ,
+              fillOpacity: check ? opacity()[0] ? opacity()[0].opa : 0 : 0 ,
               opacity: s.current === ind ? 0.8 : 0.1}
             )
           } key={ind}
