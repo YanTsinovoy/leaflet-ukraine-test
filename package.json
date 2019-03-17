@@ -2,16 +2,24 @@
   "name": "leaflet_first",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://YanTsinovoy.github.io/leaflet-ukraine-test/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "leaflet": "^1.4.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-leaflet": "^2.2.1",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
