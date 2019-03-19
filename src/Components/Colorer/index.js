@@ -3,6 +3,7 @@ import { connect}   from 'react-redux';
 import colorTabler from "../../Utils/colorTabler.js"
 import {setC} from "../../store.js"
 import "./index.css"
+import ColorInput from "../ColorInput/"
 
 let mapStateToProps = state => ({
   until: state.sample.until,
@@ -27,7 +28,7 @@ class Colorer extends Component {
             </li>
           ))}
         </ul>
-        <input type="color" defaultValue={p.color} onChange={this.colorHandler}/>
+        <ColorInput color = {p.color} change = {this.colorHandler} />
       </div>
     )
   }

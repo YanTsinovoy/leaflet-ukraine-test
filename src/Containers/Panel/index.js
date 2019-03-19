@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import "./index.css"
 import ukraine from '../../ukraine_geojson/Ukraine.json'
-import ConfigInputs from "../../Components/ConfigInputs/index.js"
-import Select from "../../Components/Select/index.js"
-import Colorer from "../../Components/Colorer/index.js"
+import ConfigInputs from "../../Components/ConfigInputs/"
+import Select from "../../Components/Select/"
+import Colorer from "../../Components/Colorer/"
 
 //from-until Component
 //select Component
