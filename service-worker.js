@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/leaflet-ukraine-test/precache-manifest.96b8af434c6f6ca949e0119866856c47.js"
+  "/leaflet-ukraine-test/precache-manifest.b9e96e4a52d6df28bd1445e7dd6a5859.js"
 );
 
 workbox.clientsClaim();

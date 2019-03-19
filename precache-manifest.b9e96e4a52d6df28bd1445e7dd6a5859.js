@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/leaflet-ukraine-test/static/js/runtime~main.70d77827.js"
   },
   {
-    "revision": "8b0946cfe5c8e9a7febf",
-    "url": "/leaflet-ukraine-test/static/js/main.bcfc4ace.chunk.js"
+    "revision": "2f4c586a9fe67c1ffc8a",
+    "url": "/leaflet-ukraine-test/static/js/main.91abca5c.chunk.js"
   },
   {
     "revision": "2eaba17d3fda56ada548",
     "url": "/leaflet-ukraine-test/static/js/2.4cb9d307.chunk.js"
   },
   {
-    "revision": "8b0946cfe5c8e9a7febf",
+    "revision": "2f4c586a9fe67c1ffc8a",
     "url": "/leaflet-ukraine-test/static/css/main.e59023b8.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/leaflet-ukraine-test/static/css/2.58fcfdef.chunk.css"
   },
   {
-    "revision": "206452f2449d879fb384bd19c59749c8",
+    "revision": "0eaf443a5de79fb734edde3b6cf67412",
     "url": "/leaflet-ukraine-test/index.html"
   }
 ];
